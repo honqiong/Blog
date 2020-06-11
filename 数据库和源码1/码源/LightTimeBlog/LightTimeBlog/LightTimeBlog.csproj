@@ -136,11 +136,21 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="css\css-family=Roboto-400,300italic,300,400italic,700&amp;subset=latin,latin-ext&amp;ver=5.4.1.css" />
     <Content Include="css\login.css" />
+    <Content Include="css\responsive.css-ver=5.4.1.css" />
+    <Content Include="css\style.css-ver=5.4.1.css" />
+    <Content Include="css\style.min.css-ver=5.4.1.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="image\lightTime.png" />
     <Content Include="image\timg.jpg" />
+    <Content Include="js\jquery.fitvids.js-ver=5.4.1.js" />
+    <Content Include="js\jquery.js-ver=1.12.4-wp.js" />
+    <Content Include="js\scripts.js-ver=5.4.1.js" />
+    <Content Include="js\slick.min.js-ver=5.4.1.js" />
+    <Content Include="js\wp-embed.min.js-ver=5.4.1.js" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -246,6 +256,7 @@
     <Content Include="Scripts\umd\popper-utils.min.js" />
     <Content Include="Scripts\umd\popper.js" />
     <Content Include="Scripts\umd\popper.min.js" />
+    <Content Include="css\all.min.css-ver=5.4.1.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -271,6 +282,7 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
+    <Content Include="Views\Shared\_LayoutPage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
