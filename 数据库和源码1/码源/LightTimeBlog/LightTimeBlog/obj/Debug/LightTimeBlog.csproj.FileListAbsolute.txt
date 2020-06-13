@@ -164,7 +164,7 @@ D:\毕业项目资料\数据库和源码1\码源\LightTimeBlog\LightTimeBlog\bin
 D:\毕业项目资料\数据库和源码1\码源\LightTimeBlog\LightTimeBlog\bin\zh-Hans\System.Web.WebPages.resources.dll
 D:\毕业项目资料\数据库和源码1\码源\LightTimeBlog\LightTimeBlog\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
 D:\毕业项目资料\数据库和源码1\码源\LightTimeBlog\LightTimeBlog\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
-D:\毕业项目资料\数据库和源码1\码源\LightTimeBlog\LightTimeBlog\obj\Debug\LightTimeBlog.csprojAssemblyReference.cache
 D:\毕业项目资料\数据库和源码1\码源\LightTimeBlog\LightTimeBlog\obj\Debug\LightTimeBlog.csproj.CopyComplete
 D:\毕业项目资料\数据库和源码1\码源\LightTimeBlog\LightTimeBlog\obj\Debug\LightTimeBlog.dll
 D:\毕业项目资料\数据库和源码1\码源\LightTimeBlog\LightTimeBlog\obj\Debug\LightTimeBlog.pdb
+D:\毕业项目资料\数据库和源码1\码源\LightTimeBlog\LightTimeBlog\obj\Debug\LightTimeBlog.csprojAssemblyReference.cache

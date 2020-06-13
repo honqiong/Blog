@@ -36,7 +36,7 @@
             line-height:90px;
         }
         #center_left {
-            border:1px solid yellow;
+            
             height:100%;
         }
         #center_left_center {
@@ -47,42 +47,40 @@
         }
         
         #center_left_top {
-            border:1px solid blue;
-            font-size:50px;
+           
+            font-size:60px;
             padding-left:2%;
         }
         #center_left_center_center {
-            border:1px solid white;
+            
             height:30%;
             line-height:100px;
-            font-size:35px;
+            font-size:40px;
             padding-left:2%;
         }
         #center_left_bottom{
-            border:1px solid red;
             height:40%;
-            font-size:20px;
+            font-size:30px;
             padding-left:2%;
             margin-top:3%;
+            line-height:100px;
         }
             #center_left_bottom a {
                 text-decoration:none;
                 color:white;
             }
             #center_left_bottom a {
-                display:block;
-                border:1px solid yellow;
                 width:15%;
                 height:30px;
                 margin-top:50px;
             }
         #center_left_bottom a:hover{
-            font-size:24px;
+            font-size:40px;
             color:aqua;
             transition-duration:0.5s;
         }
         #center_right {
-            border: 1px solid lightblue;
+            
             height: 75%;
             border-radius:25px;
             background-color:lightblue;
@@ -96,18 +94,22 @@
                 margin-bottom:2%;
             }
         #logo {
-            border:1px solid yellow;
+            
             height:100%;
+            margin-left:3%;
         }
         #logo_left {
-            border: 1px solid red;
+            
             height: 100%;
+            background-image:url("/image/lightTime.png");
+            background-repeat:no-repeat;
+            background-size:100% 100%;
         }
         #logo_right {
-            border: 1px solid yellow;
+            
             height: 100%;
             line-height: 100px;
-            font-size: 36px;
+            font-size: 45px;
             color: white;
             font-weight: bold;
         }
@@ -125,12 +127,12 @@
         }
         .white_cell {
            
-           
+           text-align:center;
+           margin-top:50px;
         }
         #loginform .maxtext {
             font-size: 24px;
             color: white;
-            margin-left:23%;
         }
         #Rpass{
             font-size:20px;
@@ -142,10 +144,10 @@
         }
         #email, #password {
             border: 1px solid #ccc;
-            margin-left: 10%;
+            
         }
         #check {
-            margin-left:23%;
+            margin-left:34%;
             width:20px;
             height:20px;
             background-color:white;
@@ -155,24 +157,26 @@
     <script type="text/javascript">
         $(document).ready(function () {
             $(".div_hidden").hide();
-                    $(".hidden_div").show();
+            $(".hidden_div").show();
             $("a").click(function () {
-                if ($("#logona").html() == "去注册")
+                if ($("#logona").text() == "去注册   ")
                 {
-                    $("#logona").text("去登录")
+                    $("#logona").text("去登录   ");
                     $("#center_left_top").text("让你的阳光洒进轻时光")
                     $("#center_left_center_center").text("Let your sunshine into the light time")
                     $("#text").text("欢迎注册");
                     $(".div_hidden").show();
                     $(".hidden_div").hide();
+                    $("#submit").val("注册");
                 }
                 else {
-                    $("#logona").text("去注册")
+                    $("#logona").text("去注册   ")
                     $("#center_left_top").text("如品尝咖啡般，享受轻时光")
                     $("#center_left_center_center").text("Enjoy light time like coffee")
                     $("#text").text("欢迎登录");
                     $(".div_hidden").hide();
                     $(".hidden_div").show();
+                    $("#submit").val("登录");
                 }
                 
             })
@@ -183,9 +187,9 @@
 <body>
     <div id="content">
         <div class="row" id="top">
-            <div class="row col-lg-3 col-lg-offset-1" id="logo">
-                <div class="col-lg-4" id="logo_left">logo</div>
-                <div class="col-lg-8" id="logo_right">轻时光博客</div>
+            <div class="row col-lg-5" id="logo">
+                <div class="col-lg-5" id="logo_left"></div>
+                <div class="col-lg-7" id="logo_right">轻时光博客</div>
             </div>
         </div>
         <div class="row" id="center">
@@ -194,20 +198,20 @@
                     <div id="center_left_top">如品尝咖啡般，享受轻时光</div>
                     <div id="center_left_center_center">Enjoy light time like coffee</div>
                     <div id="center_left_bottom">
-                        <div><a href="#"><span id="logona">去注册</span><span class="glyphicon glyphicon-chevron-right"></span></a></div>
+                        <div><a href="#"><span id="logona">去注册   </span><span class="glyphicon glyphicon-arrow-right"></span></a></div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4" id="center_right">
-                <form id="loginform" role="form">
-                    <div id="text">欢迎登陆</div>
+                <form id="loginform" role="form" action="" method="post">
+                    <div id="text">欢迎登录</div>
                     <div class="form-group white_cell">
-                        <label for="name" class="maxtext">邮箱</label>
+                        <label for="name" class="maxtext">邮箱&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                         
                         <input type="text" class="input-lg" id="email" placeholder="请输入邮箱">
                     </div>
                     <div class="form-group white_cell">
-                        <label for="password" class="maxtext">密码</label>
+                        <label for="password" class="maxtext">密码&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                         
                         <input type="password" class="input-lg" id="password" placeholder="请输入密码">
                     </div>
