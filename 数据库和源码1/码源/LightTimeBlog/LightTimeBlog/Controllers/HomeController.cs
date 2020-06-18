@@ -12,6 +12,18 @@ namespace LightTimeBlog.Controllers
         {
             return View();
         }
+        /// <summary>
+        /// 发布博客
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult Postblog()
+        {
+            return View();
+        }
+        public ActionResult Postalbum()
+        {
+            return View();
+        }
 
         public ActionResult About()
         {
