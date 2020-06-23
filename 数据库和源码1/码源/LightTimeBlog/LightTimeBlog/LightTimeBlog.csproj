@@ -130,10 +130,34 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bj\a6.html" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="css\animate.css" />
+    <Content Include="css\fileinput.css" />
+    <Content Include="css\jquery-rebox.css" />
+    <Content Include="css\simple.slide.css" />
+    <Content Include="css\style.css" />
+    <Content Include="image\1.gif" />
+    <Content Include="image\1d.jpg" />
+    <Content Include="image\2d.jpg" />
+    <Content Include="image\3d.jpg" />
+    <Content Include="image\4d.jpg" />
+    <Content Include="image\5d.jpg" />
+    <Content Include="image\header-img-comment_03.png" />
+    <Content Include="image\icon-all_01.png" />
+    <Content Include="image\member_270x210.jpg" />
+    <Content Include="image\sample_a.jpg" />
+    <Content Include="image\sample_b.jpg" />
+    <Content Include="image\sample_c.jpg" />
+    <Content Include="image\sample_d.jpg" />
+    <Content Include="image\social-icons.png" />
+    <Content Include="js\183.js" />
+    <Content Include="js\fileinput.js" />
+    <Content Include="js\fileinput.min.js" />
+    <Content Include="js\fileinput_locale_zh.js" />
     <Content Include="css\tag.css" />
     <Content Include="image\01a4e821987a282cabb9f68c974d5efe-s=128&amp;d=mm&amp;r=g.jpg" />
     <Content Include="image\01a4e821987a282cabb9f68c974d5efe-s=96&amp;d=mm&amp;r=g.jpg" />
@@ -213,9 +237,12 @@
     <Content Include="image\lightTime.png" />
     <Content Include="image\timg.jpg" />
     <Content Include="image\x.png" />
+    <Content Include="js\jquery-2.0.3.min.js" />
+    <Content Include="js\jquery-rebox.js" />
     <Content Include="js\jquery.fitvids.js-ver=5.4.1.js" />
-    <Content Include="js\jquery.js-ver=1.12.4-wp.js" />
+    <Content Include="js\jquery.min.js" />
     <Content Include="js\scripts.js-ver=5.4.1.js" />
+    <Content Include="js\simple.slide.min.js" />
     <Content Include="js\slick.min.js-ver=5.4.1.js" />
     <Content Include="js\tag.js" />
     <Content Include="js\wp-embed.min.js-ver=5.4.1.js" />
@@ -349,6 +376,9 @@
     <Content Include="Views\Shared\_LayoutPage.cshtml" />
     <Content Include="Views\Home\Postblog.cshtml" />
     <Content Include="Views\Home\Postalbum.cshtml" />
+    <Content Include="Views\Home\CheckPhoto.cshtml" />
+    <Content Include="Views\Home\Asquare.cshtml" />
+    <Content Include="Views\Home\Acomments.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

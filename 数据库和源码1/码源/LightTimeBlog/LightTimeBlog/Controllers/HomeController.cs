@@ -24,6 +24,25 @@ namespace LightTimeBlog.Controllers
         {
             return View();
         }
+        public ActionResult CheckPhoto()
+        {
+            return View();
+        }
+        /// <summary>
+        /// 相册广场
+        /// </summary>
+        public ActionResult Asquare() 
+        {
+            return View();
+        }
+        /// <summary>
+        /// 照片详情，评论
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult Acomments()
+        {
+            return View();
+        }
 
         public ActionResult About()
         {
